@@ -1,0 +1,932 @@
+body{
+    background-color: #000000;
+}
+#hidden{
+    display: none;
+}
+/* Header Style Start*/
+header{
+    width: 100%;
+    background-color: #000000;
+    margin: auto;
+    background-image: linear-gradient(#111111 50%, #000000 100%);
+    box-shadow: 0 4px 4px 0 #000000 25%;
+    font-family: "Inter", serif;
+}
+.head{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .logo a{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+}
+.head .navbar{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.head .navbar ul{
+    list-style-type: none;
+    margin: 3px;
+    padding: 0;
+}
+.head .navbar ul li{
+    display: inline-block;
+    line-height: 120%;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+.head .navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.875rem;
+}
+.head .navbar ul li:first-child{
+    background-color: #E6533C;
+    border-radius: 46px;
+}
+.head .navbar ul li:hover{
+    background-color: #E6533C;
+    border-radius: 46px;
+}
+.head span{
+    font-size: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    display: none;
+    position: absolute;
+}
+/* Header Style End */
+
+/* Banner Style Start */
+.banner{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: auto;
+    color: #ffffff;
+}
+.banner .text-area h1{
+    font-size: 4rem;
+    line-height: 110%;
+}
+.banner .text-area h1 span{
+    font-family: 'Miama', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+.banner .text-area p{
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #808080;
+    font-size: 1rem;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    width: 60%;
+}
+.banner .text-area .button{
+    display: flex;
+    gap: 14px;
+}
+.banner .text-area a{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 42px;
+    padding: 16px 40px;
+    font-size: 18px;
+    background-color: transparent;
+    outline: 1px solid #ffffff;
+    border: none;
+    transition: 0.3s ease;
+}
+.banner .text-area .btn1 {
+    background-color: #E6533C;
+    outline: none;
+}
+.banner .text-area a:hover{
+    background-color: #E6533C;
+    outline: none;
+}
+.banner .image{
+    margin: auto;
+    position: relative;
+}
+.banner .image div{
+    position: relative;
+    position: absolute;
+    border-radius: 12px;
+    border: 1px solid #1a1a1a;
+    background-color: #3030308a;
+    text-align: left;
+    padding: 10px;
+    width: 150px;
+}
+.banner .image .div1{
+    left: -10%;
+    top: 80%;
+}
+.banner .image .div1 h2{
+    margin: 0 0 5px 0;
+}
+.banner .image .div1 span, .div2 span{
+    font-size: 13px;
+    color: #808080;
+    letter-spacing: 1px;
+}
+.banner .image .div2{
+    position: relative;
+    position: absolute;
+    border-radius: 12px;
+    border: 1px solid #1a1a1a;
+    background-color: #3030308a;
+}
+.banner .image .div2{
+    left: 55%;
+    top: 20%;
+}
+.banner .image .div2 h1{
+    margin: 0 0 5px 0;
+}
+/* Banner Style End */
+
+/* Habits Style Start */
+.your-habit{
+    max-width: 1440px;
+    font-family: "Inter", serif;
+    color: #ffffff;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 100px;
+}
+.your-habit .content{
+    width: 100%;
+    text-align: center;
+}
+.your-habit .content h2{
+    font-size: 3rem;
+    line-height: 120%;
+    margin: 0;
+    margin-bottom: 14px;
+}
+.your-habit .content p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #808080;
+}
+.your-habit .grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+.your-habit .grid-container .grid-card{
+    margin-top: 40px;
+}
+.your-habit .grid-container .grid-card img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #1a1a1a;
+}
+.your-habit .grid-container .grid-card .title{
+    padding: 0 10px;
+}
+.your-habit .grid-container .grid-card h4{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.your-habit .grid-container .grid-card span{
+    font-size: 14px;
+    color: #808080;
+}
+/* Habits Style End */
+
+/* Extra Run Style Start */
+.extra-run{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #222222;
+    border-radius: 18px;
+}
+.extra-run .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.extra-run .text-content{
+    font-family: "Inter", serif;
+    padding: 25px;
+}
+.extra-run .text-content h2{
+    font-size: 3rem;
+    color: #ffffff;
+    line-height: 120%;
+    margin: 10px 0;
+}
+.extra-run .text-content p{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #808080;
+    margin-bottom: 20px;
+}
+.extra-run .text-content button{
+    display: inline-block;
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: 0.3s ease;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.extra-run .text-content button:hover{
+    background-color: transparent;
+    outline: 1px solid #ffffff;
+}
+.extra-run .image{
+    height: 312px;
+    margin: 25px;
+    object-fit: contain;
+}
+.extra-run .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+/* Extra Run Style End */
+
+/* Training Style Start */
+.training{
+    width: 100%;
+    max-width: 1440px;
+    display: grid;
+    grid-template-rows: auto auto;
+    font-family: "Inter", serif;
+    margin: auto;
+    margin-top: 100px;
+    color: #ffffff;
+}
+.training .text-content h2{
+    font-size: 3rem;
+    line-height: 120%;
+    margin: 0;
+}
+.training .text-content p{
+    font-size: 14px;
+    color: #808080;
+    letter-spacing: 0.3px;
+    margin: 10px 0;
+}
+.training .container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+.training .container div{
+    width: 30%;
+    position: relative;
+}
+.training .container img{
+    width: 100%;
+    height: 100%;
+}
+.training .container .div1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00ffd0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+.training .container .div1 span{
+    position: absolute;
+    color: #000000;
+    font-size: 0.875rem;
+    z-index: 2;
+    left: 10%;
+    top: 75%;
+}
+.training .container .div2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #990000;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+.training .container .div2 span{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    z-index: 2;
+    left: 10%;
+    top: 10%;
+}
+.training .container .div3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+.training .container .div3 span{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    z-index: 2;
+    left: 10%;
+    top: 70%;
+}
+.training .container .div4::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.training .container .div4 span{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    z-index: 2;
+    left: 40%;
+    top: 10%;
+}
+.training .container .div4 .span1, .div5 .span1{
+    display: none;
+}
+.training .container .div5::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #299900;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+.training .container .div5 span{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    z-index: 2;
+    left: 10%;
+    top: 70%;
+}
+.training .container .div6::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #002b99;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+.training .container .div6 span{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    z-index: 2;
+    left: 10%;
+    top: 70%;
+}
+/* Training Style End */
+
+/* Calculator Style Start */
+.calculator{
+    width: 50%;
+    max-width: 1440px;
+    color: #ffffff;
+    margin: auto;
+    font-family: "Inter", serif;
+    margin-top: 110px;
+}
+.calculator h2{
+    font-size: 3rem;
+    margin: 0;
+    line-height: 120%;
+}
+.calculator p{
+    color: #808080;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+}
+/* Calculator Style Start */
+
+/* BMI Style Start */
+.bmi-calculate{
+    width: 100%;
+    background-color: #222222;
+    color: #ffffff;
+    font-family: "Inter", serif;
+    margin: auto;
+    margin-top: 88px;
+}
+.bmi-calculate .bmi-container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.bmi-calculate .chart{
+    width: 40%;
+    margin: 52px 0;
+}
+.bmi-calculate .chart h3{
+    font-size: 1.75rem;
+}
+.bmi-calculate .chart table{
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 120%;
+    margin-top: 52px;
+}
+.bmi-calculate .chart table tr, th, td{
+    border: 1px solid #333333;
+    padding: 15px 18px;
+    font-size: 1rem;
+    
+}
+.bmi-calculate .chart table td{
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bmi-calculate .bmi{
+    width: 50%;
+    margin: 52px 0;
+}
+.bmi-calculate .bmi .text-content h3{
+    font-size: 1.75rem;
+    margin-bottom: 14px;
+    line-height: 120%;
+}
+.bmi-calculate .bmi .text-content p{
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #808080;
+}
+.bmi-calculate .bmi form .input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    color: #808080;
+}
+.bmi-calculate .bmi form .input-1{
+    margin-right: 12px;
+}
+.bmi-calculate .bmi form select{
+    color: #808080;
+    font-size: 1rem;
+    line-height: 22px;
+}
+.bmi-calculate .bmi form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.bmi-calculate .bmi form button{
+    background-color: #E6533C;
+    color: #ffffff;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    line-height: 22px;
+    font-weight: 500;
+    border: none;
+    font-size: 1.125rem;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    transition: 0.3s ease;
+    margin-top: 17px;
+}
+.bmi-calculate .bmi form button:hover{
+    background-color: transparent;
+    outline: 1px solid #808080;
+}
+/* BMI Style End */
+
+/* Our Team Style Start */
+.our-team{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 88px;
+    font-family: "Inter", serif;
+}
+.our-team .text-content{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+.our-team .text-content h2{
+    font-size: 3rem;
+    line-height: 120%;
+    margin: 0;
+}
+.our-team .text-content p{
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #808080;
+    font-size: 14px;
+}
+.our-team .container{
+    width: 100%;
+    max-width: 1440px;
+    background-color: #333333;
+    margin: -12px;
+    margin: auto;
+    border-radius: 18px;
+}
+.team-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+    gap: 12px;
+    padding: 12px;
+}
+.team-content .card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.team-content .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.team-content .card .title{
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    top: 80%;
+    left: 10%;
+    color: #ffffff;
+}
+.team-content .card .title h3{
+    font-size: 1.25rem;
+    line-height: 120%;
+    margin: 0;
+}
+.team-content .card .title span{
+    font-size: 14px;
+    line-height: 120%;
+    font-size: 14px;
+    color: #808080;
+}
+/* Our Team Style End */
+
+/* Fitness Style Start */
+.fitness{
+    width: 100%;
+    margin: auto;
+    color: #ffffff;
+    margin-top: 88px;
+    background-color: #1a1a1a;
+}
+.fitness .container{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 40% auto auto;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: auto;
+    font-family: "Inter", serif;
+    border-bottom: 2px solid #808080;
+    padding: 32px 0;
+}
+.fitness .container .logo a{
+    color: #E6533C;
+    font-size: 4.375rem;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 120%;
+}
+.fitness .container .logo p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #808080;
+}
+.fitness .container .get-start h3{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 120%;
+}
+.fitness .container .get-start a{
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+    font-size: 23px;
+    color: #808080;
+}
+.fitness > p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    font-family: "Inter", serif;
+    color: #808080;
+}
+/* Fitness Style End */
+
+/* Break Point Style */
+@media screen and (max-width: 992px){
+    .banner .text-area h1{
+        font-size: 3.5rem;
+        line-height: 110%;
+    }
+    .banner .text-area p{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .banner .text-area a{
+        padding: 16px 32px;
+        font-size: 14px;
+    }
+    .your-habit .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+@media screen and (max-width: 858px){
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner .text-area p{
+        width: 80%;
+        margin: 20px 0;
+    }
+    .banner .text-area a{
+        padding: 16px 40px;
+        font-size: 18px;
+    }
+    .banner .text-area .button .span{
+        display: none;
+    }
+    .banner img{
+        width: 100%;
+        margin: auto;
+    }
+    .banner .image .div1{
+        left: -15%;
+    }
+    .banner .image .div1{
+        left: 0%;
+        top: 70%;
+    }
+    .banner .image .div2{
+        left: 55%;
+        top: 10%;
+    }
+}
+@media screen and (max-width: 768px){
+    section{
+        margin: -10px;
+    }
+    .head{
+        padding: 10px;
+    }
+    .navbar{
+        display: none;
+    }
+    .head  span{
+        display: block;
+        right: 20px;
+    }
+    .extra-run .text-content h2{
+        font-size: 2.25rem;
+    }
+    .calculator{
+        width: 100%;
+    }
+    .training .container .div3 span{
+        font-size: 0.500rem;
+    }
+    .training .container .div4 span{
+        font-size: 0.500rem;
+        z-index: 2;
+        left: 10%;
+        top: 70%;
+    }
+    .training .container .div5 span{
+        font-size: 0.500rem;
+        z-index: 2;
+        left: 10%;
+        top: 70%;
+    }
+    .training .container .div6 span{
+        font-size: 0.500rem;
+        z-index: 2;
+        left: 10%;
+        top: 70%;
+    }
+    .bmi-calculate .bmi-container{
+        display: block;
+        gap: 62px;
+    }
+    .bmi-calculate .chart{
+        width: 50%;
+        padding-bottom: 0;
+    }
+    .bmi-calculate .bmi{
+        width: 100%;
+        padding-bottom: 52px;
+    }
+    .team-content .card .title h3{
+        font-size: 0.500rem;
+        line-height: 120%;
+        margin: 0;
+    }
+    .team-content .card .title span{
+        font-size: 0.500rem;
+    }
+    .fitness .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        flex-direction: row;
+        gap: 66px;
+    }
+    .fitness .container .logo{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 480px){
+    .banner .text-area h1{
+        font-size: 2.5rem;
+        line-height: 110%;
+    }
+    .banner .text-area a{
+        padding: 14px 30px;
+        font-size: 14px;
+    }
+    .banner .text-area p{
+        width: 80%;
+        margin: 20px 0;
+    }
+    .your-habit .content h2{
+        font-size: 2rem;
+    }
+    .your-habit .grid-container{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .extra-run .container{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    .extra-run .text-content h2{
+        font-size: 2rem;
+    }
+    .extra-run .text-content button{
+        width: 100%;
+    }
+    .extra-run .container .image{
+        margin: auto;
+        margin: 25px;
+    }
+    .extra-run .container img{
+        height: 100%;
+    }
+    .training .text-content h2{
+        font-size: 2rem;
+        line-height: 120%;
+        margin: -5px;
+    }
+    .training .container .div4 .span1, .div5 .span1{
+        display: block;
+    }
+    .training .container .div4 .span2, .div5 .span2{
+        display: none;
+    }
+    .calculator h2{
+        font-size: 2rem;
+        margin: 0;
+        line-height: 120%;
+    }
+    .training .container .div3{
+        display: none;
+    }
+    .training .container .div6{
+        display: none;
+    }
+    .training .container div{
+        width: 40%;
+        display: inline;
+        position: relative;
+    }
+    .training .container .div1 span{
+        font-size: 0.500rem;
+        line-height: auto;
+        color: #ffffff;
+    }
+    .training .container .div2 span{
+        font-size: 0.500rem;
+    }
+    .bmi-calculate .chart{
+        width: 100%;
+        margin: 52px 0;
+    }
+    .bmi-calculate .bmi form button{
+        width: 60%;
+    }
+    .our-team .text-content h2{
+        font-size: 2rem;
+        line-height: 120%;
+        margin: 0;
+    }
+    .team-content{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 52px;
+        gap: 30px;
+        padding: 30px;
+    }
+    .team-content .card .title{
+        position: absolute;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        left: 55%;
+        top: 80%;
+        color: #ffffff;
+    }
+    .team-content .card .title h3{
+        font-size: 1.125rem;
+        line-height: 120%;
+        margin: 0;
+    }
+    .team-content .card .title span{
+        font-size: 14px;
+    }
+    .fitness .container .get-started{
+        display: block;
+    }
+    .fitness .container{
+        display: block;
+    }
+}
