@@ -711,27 +711,34 @@ header{
 @media screen and (max-width: 768px){
     header{
         padding: 0 10px;
+        margin: auto;
      }
      .your-habit{
         padding: 0 10px;
+        margin: auto;
      }
      .extra-run{
         padding: 0 10px;
+        margin: auto;
      }
      .training{
         padding: 0 10px;
+        margin: auto;
      }
      .calculator{
         padding: 0 10px;
+        margin: auto;
      }
      .bmi-calculate{
         padding: 0 10px;
+        margin: auto;
      }
      .our-team{
         padding: 0 10px;
      }
      .fitness{
         padding: 0 10px;
+        margin: auto;
      }
     .banner{
         display: flex;
