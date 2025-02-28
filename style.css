@@ -188,13 +188,15 @@ header{
     justify-content: space-between;
     text-align: center;
     margin: auto;
+    gap: 20px;
 }
 .your-habit .grid-container .grid-card{
+    margin: auto;
     margin-top: 40px;
 }
 .your-habit .grid-container .grid-card img{
-    width: 180px;
-    height: 180px;
+    width: 80%;
+    height: 80%;
     border-radius: 50%;
     border: 3px solid #1a1a1a;
 }
@@ -696,38 +698,14 @@ header{
         padding: 16px 32px;
         font-size: 14px;
     }
-    .your-habit .grid-container{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
 }
-@media screen and (max-width: 858px){
-
-    .banner .text-area p{
-        width: 80%;
-        margin: 20px 0;
-    }
-    .banner .text-area a{
-        padding: 16px 40px;
-        font-size: 18px;
-    }
-    .banner .text-area .button .span{
+@media screen and (max-width: 600px){
+    .navbar{
         display: none;
     }
-    .banner img{
-        width: 100%;
-        margin: auto;
-    }
-    .banner .image .div1{
-        left: -15%;
-    }
-    .banner .image .div1{
-        left: 0%;
-        top: 70%;
-    }
-    .banner .image .div2{
-        left: 55%;
-        top: 10%;
+    .head  span{
+        display: block;
+        right: 20px;
     }
 }
 @media screen and (max-width: 768px){
@@ -746,12 +724,9 @@ header{
     .head{
         padding: 10px;
     }
-    .navbar{
-        display: none;
-    }
-    .head  span{
-        display: block;
-        right: 20px;
+    .your-habit .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
     .extra-run .text-content h2{
         font-size: 2.25rem;
@@ -819,6 +794,9 @@ header{
     .banner .text-area a{
         padding: 14px 30px;
         font-size: 14px;
+    }
+    .banner .text-area .button .span{
+        display: none;
     }
     .banner .text-area p{
         width: 80%;
