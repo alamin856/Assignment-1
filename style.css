@@ -709,6 +709,30 @@ header{
     }
 }
 @media screen and (max-width: 768px){
+    header{
+        padding: 0 10px;
+     }
+     .your-habit{
+        padding: 0 10px;
+     }
+     .extra-run{
+        padding: 0 10px;
+     }
+     .training{
+        padding: 0 10px;
+     }
+     .calculator{
+        padding: 0 10px;
+     }
+     .bmi-calculate{
+        padding: 0 10px;
+     }
+     .our-team{
+        padding: 0 10px;
+     }
+     .fitness{
+        padding: 0 10px;
+     }
     .banner{
         display: flex;
         flex-wrap: wrap;
@@ -717,12 +741,6 @@ header{
         margin: auto;
         margin-top: 115px;
         position: relative;
-    }
-    section{
-        margin: -10px;
-    }
-    .head{
-        padding: 10px;
     }
     .your-habit .grid-container{
         display: grid;
