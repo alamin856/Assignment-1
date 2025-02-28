@@ -73,12 +73,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
     margin: auto;
     color: #ffffff;
 }
 .banner .text-area h1{
-    font-size: 4rem;
+    font-size: 4.875rem;
     line-height: 110%;
 }
 .banner .text-area h1 span{
@@ -94,7 +93,6 @@ header{
     font-size: 1rem;
     margin-top: -20px;
     margin-bottom: 25px;
-    width: 60%;
 }
 .banner .text-area .button{
     display: flex;
@@ -118,10 +116,6 @@ header{
 .banner .text-area a:hover{
     background-color: #E6533C;
     outline: none;
-}
-.banner .image{
-    margin: auto;
-    position: relative;
 }
 .banner .image div{
     position: relative;
@@ -708,10 +702,7 @@ header{
     }
 }
 @media screen and (max-width: 858px){
-    .banner{
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     .banner .text-area p{
         width: 80%;
         margin: 20px 0;
@@ -740,6 +731,15 @@ header{
     }
 }
 @media screen and (max-width: 768px){
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner .image{
+        margin: auto;
+        margin-top: 115px;
+        position: relative;
+    }
     section{
         margin: -10px;
     }
