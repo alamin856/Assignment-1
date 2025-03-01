@@ -716,16 +716,16 @@ header{
      .your-habit{
         padding: 0 10px;
         margin: auto;
+        margin-top: 110px;
      }
      .extra-run{
-        padding: 0 10px;
         margin: auto;
-        margin-top: 84px;
+        margin-top: 84px; 
      }
      .training{
-        padding: 0 10px;
         margin: auto;
         margin-top: 72px;
+        padding: 10px;
      }
      .calculator{
         padding: 0 10px;
@@ -739,10 +739,12 @@ header{
      }
      .our-team{
         padding: 0 10px;
+        margin: auto;
      }
      .fitness{
         padding: 0 10px;
         margin: auto;
+        margin-top: 84px;
      }
     .banner{
         display: flex;
