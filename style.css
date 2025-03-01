@@ -720,18 +720,22 @@ header{
      .extra-run{
         padding: 0 10px;
         margin: auto;
+        margin-top: 84px;
      }
      .training{
         padding: 0 10px;
         margin: auto;
+        margin-top: 72px;
      }
      .calculator{
         padding: 0 10px;
         margin: auto;
+        margin-top: 72px;
      }
      .bmi-calculate{
         padding: 0 10px;
         margin: auto;
+        margin-top: 88px;
      }
      .our-team{
         padding: 0 10px;
@@ -787,6 +791,7 @@ header{
     .bmi-calculate .chart{
         width: 50%;
         padding-bottom: 0;
+        padding: 52px 0;
     }
     .bmi-calculate .bmi{
         width: 100%;
