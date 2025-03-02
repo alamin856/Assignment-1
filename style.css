@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #000000;
 }
@@ -12,6 +17,7 @@ header{
     background-image: linear-gradient(#111111 50%, #000000 100%);
     box-shadow: 0 4px 4px 0 #000000 25%;
     font-family: "Inter", serif;
+    padding: 0 20px;
 }
 .head{
     max-width: 1440px;
@@ -19,6 +25,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 0;
 }
 .head .logo a{
     color: #E6533C;
@@ -75,6 +82,7 @@ header{
     justify-content: space-between;
     margin: auto;
     color: #ffffff;
+    margin-top: 24px;
 }
 .banner .text-area h1{
     font-size: 4.875rem;
@@ -91,8 +99,7 @@ header{
     text-align: left;
     color: #808080;
     font-size: 1rem;
-    margin-top: -20px;
-    margin-bottom: 25px;
+    margin: 28px 0;
 }
 .banner .text-area .button{
     display: flex;
@@ -164,6 +171,7 @@ header{
     display: grid;
     grid-template-rows: auto auto;
     margin-top: 100px;
+    padding: 0 20px;
 }
 .your-habit .content{
     width: 100%;
@@ -189,6 +197,7 @@ header{
     text-align: center;
     margin: auto;
     gap: 20px;
+    margin-top: 58px;
 }
 .your-habit .grid-container .grid-card{
     margin: auto;
@@ -221,6 +230,7 @@ header{
     margin-top: 100px;
     background-color: #222222;
     border-radius: 18px;
+    padding: 0 20px;
 }
 .extra-run .container{
     width: 100%;
@@ -231,7 +241,7 @@ header{
 }
 .extra-run .text-content{
     font-family: "Inter", serif;
-    padding: 25px;
+    /* margin: 25px; */
 }
 .extra-run .text-content h2{
     font-size: 3rem;
@@ -265,7 +275,7 @@ header{
 }
 .extra-run .image{
     height: 312px;
-    margin: 25px;
+    margin: 25px 5px;
     object-fit: contain;
 }
 .extra-run .image img{
@@ -282,9 +292,11 @@ header{
     display: grid;
     grid-template-rows: auto auto;
     font-family: "Inter", serif;
+    color: #ffffff;
+    padding: 0 20px;
+    margin: 0 -20px;
     margin: auto;
     margin-top: 100px;
-    color: #ffffff;
 }
 .training .text-content h2{
     font-size: 3rem;
@@ -440,8 +452,10 @@ header{
     width: 50%;
     max-width: 1440px;
     color: #ffffff;
-    margin: auto;
     font-family: "Inter", serif;
+    padding: 0 20px;
+    margin: 0 -20px;
+    margin: auto;
     margin-top: 110px;
 }
 .calculator h2{
@@ -462,6 +476,8 @@ header{
     background-color: #222222;
     color: #ffffff;
     font-family: "Inter", serif;
+    padding: 0 20px;
+    margin: 0 -20px;
     margin: auto;
     margin-top: 88px;
 }
@@ -559,9 +575,11 @@ header{
 .our-team{
     width: 100%;
     max-width: 1440px;
+    font-family: "Inter", serif;
+    padding: 0 20px;
+    margin: 0 -20px;
     margin: auto;
     margin-top: 88px;
-    font-family: "Inter", serif;
 }
 .our-team .text-content{
     width: 100%;
@@ -631,10 +649,12 @@ header{
 /* Fitness Style Start */
 .fitness{
     width: 100%;
-    margin: auto;
     color: #ffffff;
-    margin-top: 88px;
     background-color: #1a1a1a;
+    padding: 0 20px;
+    margin: 0 -20px;
+    margin: auto;
+    margin-top: 88px;
 }
 .fitness .container{
     max-width: 1440px;
@@ -660,6 +680,7 @@ header{
     line-height: 24px;
     letter-spacing: 0.3px;
     color: #808080;
+    margin-top: 20px;
 }
 .fitness .container .get-start h3{
     font-size: 2rem;
@@ -709,43 +730,46 @@ header{
     }
 }
 @media screen and (max-width: 768px){
-    header{
-        padding: 0 10px;
-        margin: auto;
+    /* .head{
+        margin: 0 10px;
      }
-     .your-habit{
-        padding: 0 10px;
-        margin: auto;
-        margin-top: 110px;
+     .banner{
+        margin: 0 10px;
      }
-     .extra-run{
+     .your-habit .content{
+        margin: 0 10px;
+     }
+     .your-habit .grid-container{
+        margin: 0 10px;
+     }
+     /* .extra-run{
         margin: auto;
         margin-top: 84px; 
+     } */
+     /* .training .text-content{
+        margin: 0 10px;
      }
-     .training{
-        margin: auto;
-        margin-top: 72px;
-        padding: 10px;
+     .training .container{
+        margin: 0 10px;
      }
      .calculator{
-        padding: 0 10px;
-        margin: auto;
-        margin-top: 72px;
+        margin: 0 10px;
      }
-     .bmi-calculate{
-        padding: 0 10px;
-        margin: auto;
-        margin-top: 88px;
+     .bmi-calculate .bmi-container{
+        margin: 0 10px;
      }
-     .our-team{
-        padding: 0 10px;
-        margin: auto;
+     .our-team .text-content{
+        margin: 0 10px;
      }
-     .fitness{
-        padding: 0 10px;
-        margin: auto;
-        margin-top: 84px;
+     .our-team .container{
+        margin: 0 10px;
      }
+     .fitness .container{
+        margin: 0 10px;
+     }
+     .fitness > p{
+        margin:  35px;
+     } */
     .banner{
         display: flex;
         flex-wrap: wrap;
@@ -847,6 +871,9 @@ header{
         justify-content: space-between;
         align-items: center;
         padding-bottom: 5px;
+    }
+    .extra-run .text-content{
+        padding: 25px;
     }
     .extra-run .text-content h2{
         font-size: 2rem;
