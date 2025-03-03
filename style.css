@@ -521,6 +521,7 @@ header{
     line-height: 24px;
     letter-spacing: 0.3px;
     color: #808080;
+    margin: 20px 0;
 }
 .bmi-calculate .bmi form .input{
     width: 100%;
