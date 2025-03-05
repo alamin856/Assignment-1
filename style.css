@@ -18,7 +18,6 @@ header{
     box-shadow: 0 4px 4px 0 #000000 25%;
     font-family: "Inter", serif;
     padding: 0 20px;
-    position: relative;
 }
 .head{
     max-width: 1440px;
@@ -125,41 +124,6 @@ header{
     background-color: #E6533C;
     outline: none;
 }
-/* .banner .image div{
-    position: absolute;
-    border-radius: 12px;
-    border: 1px solid #1a1a1a;
-    background-color: #3030308a;
-    text-align: left;
-    padding: 10px;
-    width: 150px;
-}
-.banner .image .div1{
-    left: -10%;
-    top: 80%;
-}
-.banner .image .div1 h2{
-    margin: 0 0 5px 0;
-}
-.banner .image .div1 span, .div2 span{
-    font-size: 13px;
-    color: #808080;
-    letter-spacing: 1px;
-}
-.banner .image .div2{
-    position: relative;
-    position: absolute;
-    border-radius: 12px;
-    border: 1px solid #1a1a1a;
-    background-color: #3030308a;
-}
-.banner .image .div2{
-    left: 55%;
-    top: 20%;
-}
-.banner .image .div2 h1{
-    margin: 0 0 5px 0;
-} */
  .banner .image{
     position: relative;
  }
