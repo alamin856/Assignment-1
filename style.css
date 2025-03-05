@@ -127,7 +127,7 @@ header{
  .banner .image{
     position: relative;
  }
-.banner .video{
+.image .video{
     position: absolute;
     width: 140px;
     height: 70px;
@@ -138,32 +138,32 @@ header{
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.banner .video h4{
+.image .video h4{
     color: #ffffff;
     font-size: 1.5rem;
     line-height: 24px;
     letter-spacing: 1px;
 }
-.banner .video span{
+.image .video span{
     font-size: 10px;
     line-height: 20px;
     letter-spacing: 1px;
     color: #a6a6a6;
 }
-.banner .video-2 h4{
+.image .video-2 h4{
     padding: 0;
     font-size: 1rem;
     line-height: 24px;
     letter-spacing: 0.3px;
 }
-.banner .video div{
+.image .video div{
     margin: 10px 0 10px 10px;
 }
-.banner .video-1{
+.image .video-1{
     left: 85%;
     top: 31%;
 }
-.banner .video-2{
+.image .video-2{
     left: 10%;
     top: 82%;
 }
@@ -821,11 +821,11 @@ header{
         margin-top: 115px;
         position: relative;
     }
-    .banner .video-1{
+    .image .video-1{
         left: 75%;
         top: 20%;
     }
-    .banner .video-2{
+    .image .video-2{
         left: 10%;
         top: 67%;
     }
@@ -908,7 +908,7 @@ header{
         width: 80%;
         margin: 20px 0;
     }
-    .banner .video-2{
+    .image .video-2{
         left: 20%;
         top: 55%;
     }
