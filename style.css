@@ -132,7 +132,6 @@ header{
     width: 140px;
     height: 70px;
     border-radius: 12px;
-    background-color: #1a1a1a;
     border: 1px solid #262626;
     left: 50%;
     top: 50%;
@@ -162,46 +161,17 @@ header{
 .image .video-1{
     left: 85%;
     top: 31%;
+    background-color: rgba(26, 26, 26, 1);
+    backdrop-filter: blur(50px);
+    opacity: 0.8;
 }
 .image .video-2{
     left: 10%;
     top: 82%;
+    opacity: 0.8;
+    backdrop-filter: blur(20px);
+    background-color: rgba(48, 48, 48, 1);
 }
-/* .banner .video-1 h2{
-    font-size: 2.5rem;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-.banner .video-2 h3{
-    font-size: 1.5rem;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-.banner  .video-1 span{
-    font-size: 1rem;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: #a6a6a6;
-    display: block;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-.banner .video-2 span{
-    margin-top: 5px;
-}
-.banner .video-1{
-    position: absolute;
-}
-.banner .video-2{
-    position: absolute;
-} */
-/* Banner Style End */
-
-/* Habits Style Start */
 .your-habit{
     max-width: 1440px;
     color: #ffffff;
@@ -773,46 +743,6 @@ header{
     }
 }
 @media screen and (max-width: 768px){
-    /* .head{
-        margin: 0 10px;
-     }
-     .banner{
-        margin: 0 10px;
-     }
-     .your-habit .content{
-        margin: 0 10px;
-     }
-     .your-habit .grid-container{
-        margin: 0 10px;
-     }
-     /* .extra-run{
-        margin: auto;
-        margin-top: 84px; 
-     } */
-     /* .training .text-content{
-        margin: 0 10px;
-     }
-     .training .container{
-        margin: 0 10px;
-     }
-     .calculator{
-        margin: 0 10px;
-     }
-     .bmi-calculate .bmi-container{
-        margin: 0 10px;
-     }
-     .our-team .text-content{
-        margin: 0 10px;
-     }
-     .our-team .container{
-        margin: 0 10px;
-     }
-     .fitness .container{
-        margin: 0 10px;
-     }
-     .fitness > p{
-        margin:  35px;
-     } */
     .banner{
         display: flex;
         flex-wrap: wrap;
